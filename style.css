@@ -1,54 +1,5 @@
 /* CSS Document */
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Typewriter Effect</title>
-  <style>
-    /* CSS animation keyframes */
-    @keyframes typing {
-      from { width: 0; }
-      to { width: 100%; }
-    }
-
-    /* CSS style for the animated text */
-    .typewriter {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      overflow: hidden;
-      white-space: nowrap;
-      font-family: "Verdana", sans-serif;
-      font-size: 48px;
-    }
-  </style>
-  <script>
-    // JavaScript to control the typewriter effect
-    document.addEventListener("DOMContentLoaded", function(event) {
-      var text = "Masculinity";
-      var typewriter = document.querySelector(".typewriter");
-
-      function typeWriter() {
-        var index = 0;
-        var typingInterval = setInterval(function() {
-          typewriter.textContent += text.charAt(index);
-          index++;
-          if (index >= text.length) {
-            clearInterval(typingInterval);
-          }
-        }, 200);
-      }
-
-      typeWriter();
-    });
-  </script>
-</head>
-<body>
-  <div class="typewriter"></div>
-</body>
-</html>
-
 /*----------------PARALLAX IMAGE-----------------*/
 .parallax {
 	min-height: 450px;
