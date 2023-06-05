@@ -408,7 +408,7 @@ footer {
 /*(footer links)*/
 footer a {
 	text-decoration: none; /*(nullifies underline)*/
-	color: #000000;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 }
 /*(link color when moused over)*/
