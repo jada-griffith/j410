@@ -442,7 +442,7 @@ footer a:hover {
 
 /*--------------background colors----------*/
 .whiteBG {
-	background-color: white;
+	background-color: black;
 }
 
 .blueBG {
@@ -450,7 +450,7 @@ footer a:hover {
 }
 
 .orangeBG {
-	background: -webkit-linear-gradient(left,purple,white,gold);
+	background: -webkit-linear-gradient(left,black,dark,grey,white);
 }
 
 /*----------------back to top button-----------------*/
