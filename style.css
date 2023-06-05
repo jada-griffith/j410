@@ -58,7 +58,7 @@
 
 body {
 	color: black; /*(default font color for the entire page)*/
-	font-family: 'piedra', piedra;
+	font-family: 'piedra', sans-serif;
 	font-weight: 300; /*(font thickness)*/
 }
 
