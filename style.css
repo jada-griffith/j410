@@ -19,23 +19,25 @@
       transform: translate(-50%, -50%);
       overflow: hidden;
       white-space: nowrap;
-      animation: typing 5s steps(10) infinite;
+      font-family: "Copperplate Gothic", sans-serif;
+      font-size: 48px;
     }
   </style>
   <script>
     // JavaScript to control the typewriter effect
     document.addEventListener("DOMContentLoaded", function(event) {
-      var text = "masculinity";
-      var index = 0;
-      var speed = 200; // Speed of typing (in milliseconds)
+      var text = "Masculinity";
       var typewriter = document.querySelector(".typewriter");
 
       function typeWriter() {
-        if (index < text.length) {
+        var index = 0;
+        var typingInterval = setInterval(function() {
           typewriter.textContent += text.charAt(index);
           index++;
-          setTimeout(typeWriter, speed);
-        }
+          if (index >= text.length) {
+            clearInterval(typingInterval);
+          }
+        }, 200);
       }
 
       typeWriter();
