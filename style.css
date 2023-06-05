@@ -409,7 +409,7 @@ footer {
 footer a {
 	text-decoration: none; /*(nullifies underline)*/
 	color: black;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'verdana', sans-serif;
 }
 /*(link color when moused over)*/
 footer a:hover {
