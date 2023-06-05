@@ -19,7 +19,7 @@
       transform: translate(-50%, -50%);
       overflow: hidden;
       white-space: nowrap;
-      font-family: "Copperplate Gothic", sans-serif;
+      font-family: "Copperplate Gothic", piedra;
       font-size: 48px;
     }
   </style>
@@ -58,7 +58,7 @@
 
 body {
 	color: black; /*(default font color for the entire page)*/
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'piedra', piedra;
 	font-weight: 300; /*(font thickness)*/
 }
 
