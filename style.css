@@ -264,6 +264,10 @@ a.text:hover, a.text:active {
 	font-size: 48px;
 	font-weight: bold;
 	animation: typewriter 4s steps(20) 1s forwards, flicker 2s infinite;
+	position: fixed;
+	top: 50%;
+	left: calc(66.6667% + 20px);
+	transform: translate(-50%, -50%);
 }
 
 @keyframes typewriter {
