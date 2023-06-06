@@ -326,7 +326,7 @@ h2 {
     text-transform: uppercase;
     font-weight: 900;
     color: black;
-    background: -webkit-linear-gradient(left, #FD6A37, #FD6A37, #a700ff);
+    background: -webkit-linear-gradient(left, #FD6A37, gray, #a700ff);
     -webkit-background-clip: text;
     margin: 0;
     line-height: initial;
