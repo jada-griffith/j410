@@ -291,6 +291,13 @@ a.text:hover, a.text:active {
 	}
 }
 
+.text-container {
+  text-align: center;
+  font-family: "Zeyada", cursive;
+  font-size: 24px;
+  color: #FD6A37;
+}
+
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
 
 .row {
