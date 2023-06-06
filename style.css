@@ -263,7 +263,7 @@ a.text:hover, a.text:active {
 	color: white;
 	font-size: 75px;
 	font-weight: bold;
-	position: fixed;
+	position: absolute;
 	top: 38%;
 	left: calc(16% + 20px);
 	transform: translate(-50%, -50%);
