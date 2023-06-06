@@ -298,37 +298,33 @@ a.text:hover, a.text:active {
 }
 
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
+
 .row {
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 0; /*(centers content within the row)*/
+	margin-bottom: 0; /* (centers content within the row) */
 	position: relative;
 	padding: 65px 45px;
     text-align: center;
-}
-
-article {
-	max-width: 1100px;
-	margin-left: auto;
-	margin-right: auto;
-	line-height: 20px;
+    background-color: darkgray;
+    color: black;
 }
 
 h1 {
 	line-height: 1.5;
 	text-transform: uppercase;
 	font-size: 16px;
-    color: gray;
+    color: black;
 }
 
 h2 {
-	font-family: 'verdana',sans-serif;
+	font-family: 'verdana', sans-serif;
     text-align: center;
     font-size: 55px;
     text-transform: uppercase;
     font-weight: 900;
-    color: lightgray;
-    background: -webkit-linear-gradient(left,#ff005e,#ff01c9,#a700ff);
+    color: black;
+    background: -webkit-linear-gradient(left, #FD6A37, #FD6A37, #a700ff);
     -webkit-background-clip: text;
     margin: 0;
     line-height: initial;
@@ -336,6 +332,7 @@ h2 {
 
 p {
 	line-height: 1.5;
+	color: black;
 }
 
 /*----------------SLIDESHOW-----------------*/
