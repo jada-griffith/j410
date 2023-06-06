@@ -265,7 +265,7 @@ a.text:hover, a.text:active {
 	font-weight: bold;
 	position: fixed;
 	top: 38%;
-	left: calc(25% + 20px);
+	left: calc(16% + 20px);
 	transform: translate(-50%, -50%);
 	white-space: nowrap;
 	overflow: hidden;
