@@ -239,7 +239,7 @@ a.text:hover, a.text:active {
 	width: 100%;
 }
 
-.container {
+.container.container-1
 	position: relative;
 	background-image: url(img/main.jpg);
 	height: 100vh;
@@ -291,12 +291,14 @@ a.text:hover, a.text:active {
 	}
 }
 
-.text-container {
+.container.container-2 {
   text-align: center;
   font-family: "Zeyada", cursive;
   font-size: 24px;
   color: #FD6A37;
 }
+
+
 
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
 
