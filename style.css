@@ -294,10 +294,20 @@ a.text:hover, a.text:active {
 .container.container-2 {
   text-align: center;
   font-family: "Zeyada", cursive;
-  font-size: 24px;
   color: #FD6A37;
 }
 
+.animated-text-2 {
+	color: white;
+	font-size: 24px;
+	font-weight: bold;
+	position: fixed;
+	top: 50%;
+	left: calc(16% + 20px);
+	transform: translate(-50%, -50%);
+	white-space: nowrap;
+	overflow: hidden;
+}
 
 
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
