@@ -261,7 +261,7 @@ a.text:hover, a.text:active {
 
 .animated-text {
 	color: white;
-	font-size: 48px;
+	font-size: 60px;
 	font-weight: bold;
 	animation: typewriter 4s steps(20) 1s forwards, flicker 2s infinite;
 	position: fixed;
