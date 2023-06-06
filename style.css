@@ -279,8 +279,17 @@ a.text:hover, a.text:active {
 	0%, 100% {
 		opacity: 1;
 	}
-	50% {
+	20%, 80% {
 		opacity: 0.8;
+	}
+	30%, 70% {
+		opacity: 0.5;
+	}
+	40%, 60% {
+		opacity: 0.2;
+	}
+	50% {
+		opacity: 0;
 	}
 }
 
