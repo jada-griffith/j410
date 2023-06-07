@@ -321,11 +321,10 @@ p {
 	line-height: 1.5;
 }
 /*----------------SLIDESHOW-----------------*/
-
 #slider {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width:80%;
   z-index: 1;
   position: relative;        
 }
@@ -336,7 +335,7 @@ p {
   top: 0;
   width: 30%;
   opacity: 0;
-  filter: alpha(opacity=0);
+  filter: alpha(opacity=5);
   z-index: 800;
   height: 100%;
   cursor: pointer; 
@@ -344,33 +343,37 @@ p {
   
 .cycle-prev { 
   left: 0;
-  background: url(img/arrowleft.png) 50% 50% no-repeat;
+  background: url(img/apr.png) 50% 50% no-repeat;
   }
   
 .cycle-next { 
 right: 0;
-background: url(img/arrowright.png) 50% 50% no-repeat;
+background: url(img/anx.png) 50% 50% no-repeat;
 }
 
 .cycle-prev:hover, .cycle-next:hover { 
 opacity: 1;
-filter: alpha(opacity=70)
+filter: alpha(opacity=50)
 }
 
 
 /* captions below slideshow*/
 #alt-caption {
-    background-color: black;
+    background-color: transparent;
     color: #ffffff;
-    font-family: 'verdana', sans-serif;
+    font-family: 'montserrat', sans-serif;
     font-size: .9em;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+
+#ssimg {
+    border-radius: 15%
+}
 /*----------------VIDEO-----------------*/
 video {
     position: relative;
