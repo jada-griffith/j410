@@ -380,7 +380,8 @@ filter: alpha(opacity=50)
 /*----------------VIDEO-----------------*/
 video {
     position: relative;
-    width: 100%;    
+    width: 100%; 
+    background-color: black;
 }
 
 /*----------------FOOTER-----------------*/
