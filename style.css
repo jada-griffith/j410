@@ -327,7 +327,8 @@ p {
   margin-right: auto;
   width:80%;
   z-index: 1;
-  position: relative;        
+  position: relative;
+  background-color: black;
 }
 
 /* prev / next links */
