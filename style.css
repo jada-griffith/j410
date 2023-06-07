@@ -249,7 +249,7 @@ a.text:hover, a.text:active {
 
 .overlay {
 	position: absolute;
-	top: 10%;
+	top: 25%;
 	right: 20%;
 	width: 100%;
 	height: 100%;
@@ -262,7 +262,7 @@ a.text:hover, a.text:active {
 .text {
 	color: white;
 	font-family: 'Courier New', monospace;
-	font-size: 36px;
+	font-size: 30px;
 	font-weight: bold;
 	position: absolute;
 	top: 50%;
