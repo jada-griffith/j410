@@ -239,7 +239,7 @@ a.text:hover, a.text:active {
 	width: 100%;
 }
 
-.container
+.container {
 	position: relative;
 	background-image: url(img/main.jpg);
 	height: 100vh;
