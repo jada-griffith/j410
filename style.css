@@ -261,6 +261,7 @@ a.text:hover, a.text:active {
 
 .text {
 	color: white;
+	font-family: 'zeyada', sans-serif;
 	font-size: 75px;
 	font-weight: bold;
 	position: absolute;
