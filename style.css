@@ -261,7 +261,7 @@ a.text:hover, a.text:active {
 
 .text {
 	color: white;
-	font-family: 'Courier New', monospace;
+	font-family: 'montserrat',sans-serif;
 	font-size: 22px;
 	font-weight: bold;
 	position: absolute;
