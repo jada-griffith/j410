@@ -234,42 +234,17 @@ a.text:hover, a.text:active {
 }
 
 /*----------------Main Image-----------------*/
+
 .image1 {
 	width: 100%;
 }
 
 .container {
-  position: relative;
-}
-
-.container img {
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-overlay {
-  color: white;
-  font-family: 'Courier New', monospace;
-  font-size: 75px;
-  font-weight: bold;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  transform: translate(-50%, -50%);
-  white-space: nowrap;
-  overflow: hidden;
+	position: relative;
+    background-image: url(img/main-img.jpg); /*(image logo)*/
+    height: 100vh;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
