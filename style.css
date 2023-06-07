@@ -273,44 +273,53 @@ a.text:hover, a.text:active {
 }
 
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
-
 .row {
 	margin-right: auto;
 	margin-left: auto;
-	margin-bottom: 0; /* (centers content within the row) */
+	margin-bottom: 0; /*(centers content within the row)*/
 	position: relative;
 	padding: 65px 45px;
     text-align: center;
-    background-color: darkgray;
-    color: black;
+}
+
+article {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 20px;
 }
 
 h1 {
-	font-family: 'zeyada', sans-serif;
-	line-height: 1.5;
-	text-transform: uppercase;
-	font-size: 20px;
-    color: black;
+	font-family: "montserrat",sans-serif;
+    text-align: center;
+    font-size: 55px  !important;;
+    text-transform: uppercase;
+    font-weight: 2000;
+    color: #FF0CFF;
+    background: -webkit-linear-gradient(right,#B8BABA,white,#B8BABA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+    line-height: initial;
 }
 
 h2 {
-	font-family: 'verdana', sans-serif;
+	font-family: 'montserrat',sans-serif;
     text-align: center;
-    font-size: 45px;
+    font-size: 55px;
     text-transform: uppercase;
     font-weight: 900;
-    color: black;
-    background: -webkit-linear-gradient(left, #FD6A37, gray, #a700ff);
+    color: #FF0CFF;
+    background: -webkit-linear-gradient(right,#D4D400,#28C761,#024709);
     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 0;
     line-height: initial;
 }
 
 p {
 	line-height: 1.5;
-	color: black;
 }
-
 /*----------------SLIDESHOW-----------------*/
 
 #slider {
