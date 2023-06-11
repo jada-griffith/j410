@@ -121,7 +121,7 @@ a.text:hover, a.text:active {
     font-size: 16px;
     font-weight: 600;
     line-height: initial;
-    background: url(img/arrow.png) #a2ffe8;
+    background: url(img/arrow.png) lightgray;
     background-size: 40px;
     background-repeat: no-repeat;
     background-position: 96%;
