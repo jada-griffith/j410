@@ -331,6 +331,7 @@ p {
 /*----------------SLIDESHOW-----------------*/
 
 #slider {
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
   width:80%;
