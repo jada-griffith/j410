@@ -106,7 +106,7 @@ a.text:hover, a.text:active {
     color: black;
 }
 .row a{
-	color: #1e1f32;
+	color: darkred;
     font-family: "verdana",sans-serif;
     text-transform: uppercase;
     padding: .5rem 1rem;
