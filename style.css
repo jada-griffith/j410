@@ -400,6 +400,8 @@ footer {
 	padding-right: 25px;
 	text-align: center;
 	font-size: 10px;
+	background-color: black;
+        color: white;
 }
 /*(footer links)*/
 footer a {
