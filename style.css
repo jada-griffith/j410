@@ -304,7 +304,7 @@ article {
     text-transform: uppercase;
     font-weight: 2000;
     color: black;
-    background: -webkit-linear-gradient(right,black,white);
+    background: -webkit-linear-gradient(left,darkred,black);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0;
