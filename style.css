@@ -272,7 +272,6 @@ a.text:hover, a.text:active {
 	overflow: hidden;
 }
 
-
 /*----------------Main Content Area(this is where all the content below the navigation bar will go)--*/
 .row {
 	margin-right: auto;
@@ -290,13 +289,21 @@ article {
 	line-height: 20px;
 }
 
-h1 {
+.typewriter h1 {
 	font-family: "zeyada",sans-serif;
+	overflow: hidden; /* Ensures the content is not revealed until the animation */
+	 border-right: .15em solid; /* The typwriter cursor */
+	 white-space: nowrap; /* Keeps the content on a single line */
+	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .12em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
     text-align: center;
     font-size: 55px  !important;;
     text-transform: uppercase;
     font-weight: 2000;
-    color: #FF0CFF;
+    color: black;
     background: -webkit-linear-gradient(right,black,white);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
