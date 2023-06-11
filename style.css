@@ -329,13 +329,13 @@ p {
 	line-height: 1.5;
 }
 /*----------------SLIDESHOW-----------------*/
+
 #slider {
   margin-left: auto;
   margin-right: auto;
   width:80%;
   z-index: 1;
-  position: relative;
-  background-color: black;
+  position: relative;        
 }
 
 /* prev / next links */
@@ -365,7 +365,6 @@ opacity: 1;
 filter: alpha(opacity=50)
 }
 
-
 /* captions below slideshow*/
 #alt-caption {
     background-color: transparent;
@@ -378,7 +377,6 @@ filter: alpha(opacity=50)
     padding-top: 10px;
     padding-bottom: 10px;
 }
-
 
 #ssimg {
     border-radius: 15%
