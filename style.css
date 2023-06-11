@@ -349,10 +349,9 @@ p {
 /*----------------SLIDESHOW-----------------*/
 
 #slider {
-  background-color: black;
   margin-left: auto;
   margin-right: auto;
-  width:80%;
+  width: 100%;
   z-index: 1;
   position: relative;        
 }
@@ -363,7 +362,7 @@ p {
   top: 0;
   width: 30%;
   opacity: 0;
-  filter: alpha(opacity=5);
+  filter: alpha(opacity=0);
   z-index: 800;
   height: 100%;
   cursor: pointer; 
@@ -371,17 +370,17 @@ p {
   
 .cycle-prev { 
   left: 0;
-  background: url(img/apr.png) 50% 50% no-repeat;
+  background: url(img/arrowleft.png) 50% 50% no-repeat;
   }
   
 .cycle-next { 
 right: 0;
-background: url(img/anx.png) 50% 50% no-repeat;
+background: url(img/arrowright.png) 50% 50% no-repeat;
 }
 
 .cycle-prev:hover, .cycle-next:hover { 
 opacity: 1;
-filter: alpha(opacity=50)
+filter: alpha(opacity=70)
 }
 
 /* captions below slideshow*/
