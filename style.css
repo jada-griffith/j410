@@ -424,7 +424,7 @@ footer {
 /*(footer links)*/
 footer a {
 	text-decoration: none; /*(nullifies underline)*/
-	color: black;
+	color: white;
 	font-family: 'verdana', sans-serif;
 }
 /*(link color when moused over)*/
