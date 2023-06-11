@@ -289,45 +289,63 @@ article {
 	line-height: 20px;
 }
 
-.typewriter h1 {
-	font-family: "zeyada",sans-serif;
-	overflow: hidden; /* Ensures the content is not revealed until the animation */
-	 border-right: .15em solid; /* The typwriter cursor */
-	 white-space: nowrap; /* Keeps the content on a single line */
-	margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .12em; /* Adjust as needed */
-  animation: 
-    typing 3.5s steps(30, end),
-    blink-caret .5s step-end infinite;
-    text-align: center;
-    font-size: 55px  !important;;
-    text-transform: uppercase;
-    font-weight: 2000;
-    color: black;
-    background: -webkit-linear-gradient(left,darkred,black);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
-    line-height: initial;
+.text-overlay {
+  font-family: "zeyada", sans-serif;
+  overflow: hidden;
+  border-right: .15em solid;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .12em;
+  animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
+  text-align: center;
+  font-size: 55px !important;
+  text-transform: uppercase;
+  font-weight: 2000;
+  color: black;
+  background: -webkit-linear-gradient(left, darkred, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  line-height: initial;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: black;
+  }
 }
 
 h2 {
-	font-family: 'montserrat',sans-serif;
-    text-align: center;
-    font-size: 55px;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: darkgrey;
-    background: -webkit-linear-gradient(right,#D4D400,#28C761,#024709);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    margin: 0;
-    line-height: initial;
+  font-family: 'zeyada', sans-serif;
+  text-align: center;
+  font-size: 55px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: darkgrey;
+  background: -webkit-linear-gradient(right, #D4D400, #28C761, #024709);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 0;
+  line-height: initial;
 }
 
 p {
-	line-height: 1.5;
+  line-height: 1.5;
 }
+
 /*----------------SLIDESHOW-----------------*/
 
 #slider {
