@@ -298,11 +298,11 @@ article {
   letter-spacing: .12em;
   animation: typing 3.5s steps(30, end), blink-caret .5s step-end infinite;
   text-align: center;
-  font-size: 55px !important;
+  font-size: 48px !important;
   text-transform: uppercase;
   font-weight: 2000;
   color: black;
-  background: -webkit-linear-gradient(left, darkred, black);
+  background: -webkit-linear-gradient(left,red, black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
