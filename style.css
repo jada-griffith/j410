@@ -16,11 +16,11 @@
   }
 
 h2 {
-  color: -webkit-linear-gradient(left,white,darkred,black); !important;
+  color: -webkit-linear-gradient(left,white,#880808,black); !important;
 }
 
 h3 {
-  color: -webkit-linear-gradient(left,white,darkred,black); /* Set color for <h3> */
+  color: -webkit-linear-gradient(left,white,#880808,black); /* Set color for <h3> */
 }
 
 /*----------------PARALLAX IMAGE-----------------*/
@@ -31,7 +31,7 @@ h3 {
 }
 
 body {
-	color: -webkit-linear-gradient(left,white,darkred,black); !important; /*(default font color for the entire page)*/
+	color: -webkit-linear-gradient(left,white,#880808,black); !important; /*(default font color for the entire page)*/
 	font-family: 'verdana', sans-serif;
 	font-weight: 300; /*(font thickness)*/
 }
@@ -326,7 +326,7 @@ article {
   text-transform: uppercase;
   font-weight: 2000;
   color: white;
-  background: -webkit-linear-gradient(left,white,darkred,black);
+  background: -webkit-linear-gradient(left,white,#880808,black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -376,7 +376,7 @@ h2#home {
   font-size: 35px;
   text-transform: uppercase;
   font-weight: 900;
-  color: -webkit-linear-gradient(left,white,gray,red,darkred);
+  color: -webkit-linear-gradient(left,white,gray,red,#880808);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
@@ -556,7 +556,7 @@ h2 {
     font-family: 'zeyada', sans-serif; /* Change to your desired font family */
     font-size: 35px; /* Change to your desired font size */
     font-weight: bold; /* Change to your desired font weight */
-    color:  -webkit-linear-gradient(left,white,gray,red,darkred); !important
+    color:  -webkit-linear-gradient(left,white,gray,red,#880808); !important
     text-align: center; /* Change to your desired text alignment */
   }
 
@@ -587,7 +587,7 @@ h2 {
 }
 
 #myBtn:hover {
-  background-color: darkblue;
+  background-color: #880808;
   opacity: 0.75;   
 }
 
