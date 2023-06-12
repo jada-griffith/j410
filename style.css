@@ -479,7 +479,7 @@ footer a {
 }
 /*(link color when moused over)*/
 footer a:hover {
-	color: lightgray;
+	color: black;
 }
 
 /*----------------AUDIO BOARD-----------------*/
