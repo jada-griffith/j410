@@ -556,7 +556,7 @@ h2 {
     font-family: 'zeyada', sans-serif; /* Change to your desired font family */
     font-size: 35px; /* Change to your desired font size */
     font-weight: bold; /* Change to your desired font weight */
-    color: red; /* Change to your desired text color */
+    color:  -webkit-linear-gradient(left,white,gray,red,darkred); !important
     text-align: center; /* Change to your desired text alignment */
   }
 
