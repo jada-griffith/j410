@@ -358,7 +358,7 @@ h2 {
   font-size: 55px;
   text-transform: uppercase;
   font-weight: 900;
-  color: darkgrey;
+  color: #880808;
   background: -webkit-linear-gradient(right, #D4D400, #28C761, #024709);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
