@@ -3,7 +3,7 @@
 /*----------------UNIFORM COLORS-----------------*/
 
   h2 {
-    font-family: 'verdana', sans-serif; /* Set the font family to Verdana or a sans-serif font */
+    font-family: 'verdana', sans-serif; !important;
     text-align: center; /* Center-align the text */
     font-size: 30px; /* Set the font size to 30 pixels */
     text-transform: uppercase; /* Convert the text to uppercase */
@@ -16,7 +16,7 @@
   }
 
 h2 {
-  color: -webkit-linear-gradient(left,white,darkred,black); /* Set color for <h2> */
+  color: -webkit-linear-gradient(left,white,darkred,black); !important;
 }
 
 h3 {
