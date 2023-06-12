@@ -445,11 +445,18 @@ video {
     background-color: black;
 }
 
-  h2#vid {
-    color: -webkit-linear-gradient(left,white,gray,red,darkred); /* Change the color to your desired color */
-    font-style: bold; /* Change the font style to italic or your desired style */
-    font-family: 'zeyada', sans-serif;
-  }
+ h2 {
+  font-family: 'verdana', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white; 
+  background: black;
+  -webkit-background-clip: text;
+  margin: 0;
+  line-height: initial;
+}
 
 /*----------------FOOTER-----------------*/
 footer {
