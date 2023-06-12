@@ -325,7 +325,7 @@ article {
   font-size: 48px !important;
   text-transform: uppercase;
   font-weight: 2000;
-  color: black;
+  color: white;
   background: -webkit-linear-gradient(left,white,darkred,black);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
