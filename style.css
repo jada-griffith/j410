@@ -439,6 +439,7 @@ video {
   h2#vid {
     color: -webkit-linear-gradient(left,white,gray,red,darkred); /* Change the color to your desired color */
     font-style: bold; /* Change the font style to italic or your desired style */
+    font-family: 'zeyada', sans-serif;
   }
 
 /*----------------FOOTER-----------------*/
