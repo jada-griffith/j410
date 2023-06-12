@@ -3,15 +3,15 @@
 /*----------------UNIFORM COLORS-----------------*/
 
 h1 {
-  color: red; /* Set color for <h1> */
+  color: -webkit-linear-gradient(left,white,darkred,black); /* Set color for <h1> */
 }
 
 h2 {
-  color: blue; /* Set color for <h2> */
+  color: -webkit-linear-gradient(left,white,darkred,black); /* Set color for <h2> */
 }
 
 h3 {
-  color: green; /* Set color for <h3> */
+  color: -webkit-linear-gradient(left,white,darkred,black); /* Set color for <h3> */
 }
 
 /*----------------PARALLAX IMAGE-----------------*/
