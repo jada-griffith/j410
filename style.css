@@ -67,7 +67,7 @@ nav ul li a:visited {
     padding: 0 20px;
     line-height: 105px;
     background-color: white;
-    color: black;
+    color: #880808;
     text-decoration: none;
 	font-weight: bold;
 }
@@ -333,6 +333,7 @@ h1 {
 	line-height: 1.5;
 	text-transform: uppercase;
 	font-size: 55px;
+	font-weight: bold;
     color: white;
 }
 
@@ -343,6 +344,7 @@ h2 {
   text-transform: uppercase;
   font-weight: 900;
   color: white;
+  font-weight: bold;
   background: -webkit-linear-gradient(right, #D4D400, #28C761, #024709);
   -webkit-background-clip: text;
     margin: 0;
@@ -359,6 +361,7 @@ h2#home {
   font-size: 35px;
   text-transform: uppercase;
   font-weight: 900;
+  font-weight: bold;
   color: white;
   -webkit-background-clip: text;
   margin: 0;
