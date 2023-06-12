@@ -352,6 +352,13 @@ article {
   }
 }
 
+h1 {
+	line-height: 1.5;
+	text-transform: uppercase;
+	font-size: 55px;
+    color: white;
+}
+
 h2 {
   font-family: 'zeyada', sans-serif;
   text-align: center;
