@@ -342,12 +342,11 @@ h2 {
   font-size: 55px;
   text-transform: uppercase;
   font-weight: 900;
-  color: #880808;
+  color: white;
   background: -webkit-linear-gradient(right, #D4D400, #28C761, #024709);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  margin: 0;
-  line-height: initial;
+    margin: 0;
+    line-height: initial;
 }
 
 p {
@@ -362,7 +361,6 @@ h2#home {
   font-weight: 900;
   color: #880808;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   margin: 0;
   line-height: initial;
 }
