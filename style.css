@@ -1,28 +1,5 @@
 /* CSS Document */
 
-/*----------------UNIFORM COLORS-----------------*/
-
-  h2 {
-    font-family: 'verdana', sans-serif; !important;
-    text-align: center; /* Center-align the text */
-    font-size: 30px; /* Set the font size to 30 pixels */
-    text-transform: uppercase; /* Convert the text to uppercase */
-    font-weight: 900; /* Set the font weight to bold (900) */
-    color: white; /* Set the text color to white */
-    background: black; /* Set the background color to black */
-    -webkit-background-clip: text; /* Clip the background to the text */
-    margin: 0; /* Remove any margin around the element */
-    line-height: initial; /* Use the default line height */
-  }
-
-h2 {
-  color: -webkit-linear-gradient(left,white,#880808,black); !important;
-}
-
-h3 {
-  color: -webkit-linear-gradient(left,white,#880808,black); /* Set color for <h3> */
-}
-
 /*----------------PARALLAX IMAGE-----------------*/
 .parallax {
 	min-height: 450px;
