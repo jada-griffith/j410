@@ -552,6 +552,13 @@ h2 {
 .whiteBG {
 	background-color: black;
 }
+  #num {
+    font-family: 'zeyada', sans-serif; /* Change to your desired font family */
+    font-size: 35px; /* Change to your desired font size */
+    font-weight: bold; /* Change to your desired font weight */
+    color: red; /* Change to your desired text color */
+    text-align: center; /* Change to your desired text alignment */
+  }
 
 .blueBG {
 	background: black;
