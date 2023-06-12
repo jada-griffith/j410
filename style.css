@@ -31,7 +31,7 @@ h3 {
 }
 
 body {
-	color: black; /*(default font color for the entire page)*/
+	color: -webkit-linear-gradient(left,white,darkred,black); /*(default font color for the entire page)*/
 	font-family: 'verdana', sans-serif;
 	font-weight: 300; /*(font thickness)*/
 }
